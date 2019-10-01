@@ -50,10 +50,6 @@ dellos_system:
           - name: mac-in-mac
             header: tunnel-header-mac
             state: present
-    line_terminal:
-      vty 0:
-        exec_timeout: 40
-        exec_banner: true
     clock:
       summer_time:
         timezone_name: PST
